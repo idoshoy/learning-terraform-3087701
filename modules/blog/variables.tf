@@ -48,10 +48,9 @@ variable "provider_terraform" {
     source       = string
     region       = string
   })
+  
   default = {
-
     source     = "hashicorp/aws"
     region     = "us-west-2"
-
   }
 }
